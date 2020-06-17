@@ -1,3 +1,3 @@
-module wujiang/go-leetcode
+module github.com/wujiang1994/go-leetcode
 
 go 1.13
