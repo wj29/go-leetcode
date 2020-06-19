@@ -3,8 +3,6 @@
 + learn algorithm by the classification  
 + to be continue
 
-### sort
-
 ### 数组和矩阵
 |题目| 解决  | 备注 |
 |:----|:----  |:----|
@@ -12,7 +10,6 @@
 |[645. 错误的集合](https://leetcode-cn.com/problems/set-mismatch/) |[Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/find_error_nums_test.go)||
 |[485. 最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/) |[Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/find_max_consecutive_ones_test.go)||
 |[350. 两个数组的交集II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/intersect_test.go) ||
-|[349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/intersection_test.go) ||
 |[349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/intersection_test.go) ||
 |[566. 重塑矩阵](https://leetcode-cn.com/problems/reshape-the-matrix/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/matrix_reshape_test.go) ||
 |[4. 寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/find_median_sorted_arrays_test.go) |mark|
