@@ -17,7 +17,6 @@ func Test_MaxSubArray(t *testing.T) {
 // 前三项的最大值一定是f(c)+d，那么只需要比较f(c)+d与d的大小即可
 // 即f(i)必定是f(i-1) + nums[i]或者不加上nums[i](即nums[i]单独成为开始)，可得到状态方程
 // f(i) = max(f(i-1)+nums[i], nums[i])
-// 佩服
 func maxSubArray(nums []int) int {
 	if len(nums) <= 0 {
 		panic("invalid length")

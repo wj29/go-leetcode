@@ -1,7 +1,6 @@
 package doublepoint
 
 import (
-	"fmt"
 	"math"
 	"testing"
 )
@@ -14,7 +13,7 @@ func Test_TwoSumSquared(t *testing.T) {
 	t.Log(twoSumSquared(c))
 }
 
-// 同有序数组两数和，b取sqrt(c)即可 时间负载度n
+// 同有序数组两数和，b取sqrt(c)即可 时间复杂度n
 func twoSumSquared(c int) bool {
 	if c < 0 {
 		return false
@@ -24,7 +23,6 @@ func twoSumSquared(c int) bool {
 	for {
 		target := a*a + b*b
 		if target == c {
-			fmt.Println(a, b)
 			return true
 		} else if target > c {
 			b--

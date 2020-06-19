@@ -1,7 +1,6 @@
 package greedy
 
 import (
-	"fmt"
 	"sort"
 	"testing"
 )
@@ -29,7 +28,6 @@ func maxProfit3_1(prices []int) int { // wrong
 		}
 	}
 	f = append(f, prices[len(prices)-1])
-	fmt.Println(f)
 	p := make([]int, 0)
 	for i := 0; i < len(f)-1; i++ {
 		if f[i+1]-f[i] > 0 {
@@ -39,7 +37,6 @@ func maxProfit3_1(prices []int) int { // wrong
 	sort.Slice(p, func(i, j int) bool {
 		return p[i] > p[j]
 	})
-	fmt.Println(p)
 	if len(p) <= 0 {
 		return 0
 	}
