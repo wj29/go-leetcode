@@ -34,6 +34,7 @@
 |[633. 平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/twosum_squared_test.go) ||
 |[167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/twosum_test.go) ||
 |[680. 验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/valid_palindrome_test.go) ||
+| | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint//is_palindrome_test)||
 
 ### 动态规划
 |题目| 解决  | 备注 |
