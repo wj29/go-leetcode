@@ -19,7 +19,7 @@
 |[27. 移除元素](https://leetcode-cn.com/problems/remove-element/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/remove_element_test.go) ||
 |[54. 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/spiral_order_test.go) ||
 |[560. 和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/subarray_sum_test.go) ||
-
+|[81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/search_test.go) ||
 ### 双指针
 |题目| 解决  | 备注 |
 |:----|:----  |:----|
@@ -34,7 +34,7 @@
 |[633. 平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/twosum_squared_test.go) ||
 |[167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/twosum_test.go) ||
 |[680. 验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/valid_palindrome_test.go) ||
-| | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint//is_palindrome_test)||
+|[125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint//is_palindrome_test)||
 
 ### 动态规划
 |题目| 解决  | 备注 |
@@ -82,6 +82,7 @@
 |[268. 缺失数字](https://leetcode-cn.com/problems/missing-number/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/hash/missing_number_test.go) ||
 |[136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/hash/single_number_test.go) ||
 |[290. 单词规律](https://leetcode-cn.com/problems/word-pattern/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/hash/word_pattern_test.go) ||
+|[面试题 16.18. 模式匹配](https://leetcode-cn.com/problems/pattern-matching-lcci/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/hash/pattern_matching_test.go)|mark|
 
 ### 链表
 |题目| 解决  | 备注 |
@@ -101,6 +102,7 @@
 |:----|:----  |:----|
 |[9. 回文数](https://leetcode-cn.com/problems/palindrome-number/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/math/is_palindrome_test.go) ||
 |[7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/math/reverse_test.go) ||
+|[67. 二进制求和](https://leetcode-cn.com/problems/add-binary/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/math/add_binary_test.go) ||
 
 ### 搜索
 |题目| 解决  | 备注 |
