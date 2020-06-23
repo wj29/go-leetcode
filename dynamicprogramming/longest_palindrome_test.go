@@ -7,6 +7,7 @@ import "testing"
 func Test_LongestPalindrome(t *testing.T) {
 	s := "rtyuuytr"
 	t.Log(longestPalindrome(s))
+	t.Log(countSubstrings(s))
 }
 
 // 对于一个字串，假设长度大于2，如果他有两种情况，是回文和不是回文，如果是回文，那么去除首尾两个字符后仍是回文
@@ -33,6 +34,31 @@ func longestPalindrome(s string) string {
 			}
 			if dp[i][j] && gap+1 > len(ret) {
 				ret = s[i : j+1]
+			}
+		}
+	}
+	return ret
+}
+
+// 回文字串个数，即dp数组中的true的个数
+func countSubstrings(s string) int {
+	ret := 0
+	dp := make([][]bool, len(s))
+	for i := range dp {
+		dp[i] = make([]bool, len(s))
+	}
+	for gap := 0; gap < len(s); gap++ {
+		for i := 0; i+gap < len(s); i++ {
+			j := i + gap  // dp[i][j] 间隔gap 即以子序列长度为标准遍历
+			if gap == 0 { // 初始化base
+				dp[i][j] = true
+			} else if gap == 1 {
+				dp[i][j] = s[i] == s[j]
+			} else {
+				dp[i][j] = dp[i+1][j-1] && s[i] == s[j]
+			}
+			if dp[i][j] {
+				ret++
 			}
 		}
 	}

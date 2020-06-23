@@ -7,7 +7,6 @@ import "testing"
 // 输入: s = "abpcplea", d = ["ale","apple","monkey","plea"]
 // 输出: "apple"
 // https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/description/
-
 func Test_FindLongestWord(t *testing.T) {
 	s := "bab"
 	//d := []string{"ale", "apple", "monkey", "plea"}
@@ -17,6 +16,7 @@ func Test_FindLongestWord(t *testing.T) {
 
 // 找到s的所有字串逐一与d比较，寻找所有字串的时间负载的2^n
 // 通过比较d的所有值是否为s的字串n*m， n为s的长度，m为d的长度
+// 字典顺序不是d的顺序，比较ascii码表顺序
 func findLongestWord(s string, d []string) string {
 	r := ""
 	if len(s) <= 0 {
@@ -24,7 +24,7 @@ func findLongestWord(s string, d []string) string {
 	}
 	for i := range d {
 		if subString(s, d[i]) {
-			if len(d[i]) > len(r) {
+			if len(d[i]) > len(r) || (len(d[i]) == len(r) && d[i] > r) {
 				r = d[i]
 			}
 		}
