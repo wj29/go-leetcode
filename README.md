@@ -58,6 +58,9 @@
 |[面试题46. 把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/translate_num_test.go) ||
 |[62. 不同路径](https://leetcode-cn.com/problems/unique-paths/) [64. 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) [面试题47. 礼物的最大价值](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/unique_paths_test.go) ||
 |[139. 单词拆分](https://leetcode-cn.com/problems/word-break/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/word_break_test.go) ||
+|[740. 删除与获得点数](https://leetcode-cn.com/problems/delete-and-earn/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/delete_and_earn_test.go) ||
+|[746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/min_cost_climbing_stairs_test.go) ||
+|[121. 买卖股票系列](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/max_profit_test.go) |mark|
 
 ### 贪心
 |题目| 解决  | 备注 |
@@ -67,9 +70,6 @@
 |[435. 无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/description/) [646. 最长数对链](https://leetcode-cn.com/problems/maximum-length-of-pair-chain/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/erase_overlap_intervals_test.go) ||
 |[455. 分发饼干](https://leetcode-cn.com/problems/assign-cookies/description/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/find_content_children_test.go) ||
 |[452. 用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/find_min_arrow_shots_test.go) ||
-|[121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/max_profit1_test.go) ||
-|[122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/max_profit2_test.go) ||
-|[123. 买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/max_profit3_test.go) ||
 |[763. 划分字母区间](https://leetcode-cn.com/problems/partition-labels/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/partition_labels_test.go) ||
 
 ### 哈希
@@ -103,6 +103,7 @@
 |[9. 回文数](https://leetcode-cn.com/problems/palindrome-number/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/math/is_palindrome_test.go) ||
 |[7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/math/reverse_test.go) ||
 |[67. 二进制求和](https://leetcode-cn.com/problems/add-binary/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/math/add_binary_test.go) ||
+|[1323. 6 和 9 组成的最大数字](https://leetcode-cn.com/problems/maximum-69-number/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/math/maximum69_number_test.go) ||
 
 ### 搜索
 |题目| 解决  | 备注 |
