@@ -15,6 +15,11 @@ func Test_EraseOverlapIntervals(t *testing.T) {
 	intervals := [][]int{{1, 2}, {2, 3}, {3, 4}, {1, 3}}
 	intervals = [][]int{{10, 16}, {2, 8}, {1, 6}, {7, 12}}
 	t.Log(eraseOverlapIntervals(intervals))
+
+	intervals = [][]int{{1, 4}, {4, 5}}
+	intervals = [][]int{{1, 3}, {2, 6}, {8, 10}, {15, 18}}
+	intervals = [][]int{{1, 4}, {2, 3}}
+	t.Log(merge(intervals))
 }
 
 // 贪心算法 局部最优
@@ -65,4 +70,48 @@ func findLongestChain(pairs [][]int) int {
 		}
 	}
 	return len(ret)
+}
+
+// 给出一个区间的集合，请合并所有重叠的区间
+// https://leetcode-cn.com/problems/merge-intervals/
+func merge(intervals [][]int) [][]int {
+	if len(intervals) <= 0 {
+		return [][]int{}
+	}
+	sort.SliceStable(intervals, func(i, j int) bool {
+		if intervals[i][0] != intervals[j][0] {
+			return intervals[i][0] < intervals[j][0]
+		}
+		return intervals[i][1] < intervals[j][1]
+	})
+	ret := make([][]int, 0)
+	tmp := make([][]int, 0)
+	tmp = append(tmp, intervals[0])
+	intervals = intervals[1:]
+	for _, v := range intervals {
+		end := maxValue(tmp)
+		if v[0] <= end {
+			tmp = append(tmp, v)
+		} else {
+			if len(tmp) > 0 {
+				ret = append(ret, []int{tmp[0][0], end})
+				tmp = tmp[len(tmp):]
+			}
+			tmp = append(tmp, v)
+		}
+	}
+	if len(tmp) > 0 {
+		ret = append(ret, []int{tmp[0][0], maxValue(tmp)})
+	}
+	return ret
+}
+
+func maxValue(p [][]int) int {
+	max := p[0][1]
+	for _, v := range p {
+		if v[1] > max {
+			max = v[1]
+		}
+	}
+	return max
 }

@@ -72,8 +72,7 @@ func maxProfit2(prices []int) int {
 // https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii hard
 
 // 遍历数组，分别计算左边和右边数组的最大利润，拆分成两个股票I的问题
-// 时间复杂度N^2
-// 解法不通用，最大买卖次数变成三次即失效
+// 时间复杂度N^2，解法随着买卖次数的增多，时间复杂度指数增加
 func maxProfit3(prices []int) int {
 	if len(prices) <= 0 {
 		return 0
@@ -91,6 +90,15 @@ func maxProfit3(prices []int) int {
 // 买卖股票4:
 // 设计一个算法来计算你所能获取的最大利润。你最多可以完成 k 笔交易。
 // https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/ hard
+
+// 此时，我们无法使用买卖股票3的做法了，时间复杂度太高
+// 对于第k次买卖，它一定是前k-1次获取的最大利润+最后一次获取的利润
+// 那么对于最后一次的利润，我们将数组从后向前遍历得到每一个可能取得的获利点
+// dp[k][i]表示进行进行了k次交易后数组下标i时获取的最大利润
+// dp[k][i] = max(dp[k-1][j] + price[i]-price[j])(for j in 0 - i-2)
+func maxProfit4(k int, prices []int) int {
+	return 0
+}
 
 // 买卖股票含冷冻期
 // 设计一个算法计算出最大利润。在满足以下约束条件下，你可以尽可能地完成更多的交易（多次买卖一支股票

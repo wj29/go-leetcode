@@ -157,3 +157,7 @@
 |[230. 二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/kth_smallest_test.go) ||
 |[108. 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/sorted_array_to_BST_test.go) ||
 |[669. 修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/trim_BST_test.go) |mark|
+|[1367. 二叉树中的列表](https://leetcode-cn.com/problems/linked-list-in-binary-tree/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/is_sub_path_test.go) ||
+|[1372. 二叉树中的最长交错路径](https://leetcode-cn.com/problems/longest-zigzag-path-in-a-binary-tree/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/longest_zig_zag_test.go) ||
+
+

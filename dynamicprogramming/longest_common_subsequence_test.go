@@ -15,7 +15,6 @@ func Test_LongestCommonSubsequence(t *testing.T) {
 
 // 一般寻找子序列的题目，都是用动态规划去解决
 // 对于text1 text2两个字符串一般可以建立一个二维dp table，通过0-n个字符的字符串去寻找规律
-// 见/node/algorithm/dynamicprogramming.md
 // 题解:
 // https://leetcode-cn.com/problems/longest-common-subsequence/solution/dong-tai-gui-hua-zhi-zui-chang-gong-gong-zi-xu-lie/
 func longestCommonSubsequence(text1 string, text2 string) int {
