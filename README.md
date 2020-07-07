@@ -62,6 +62,7 @@
 |[746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/min_cost_climbing_stairs_test.go) ||
 |[121. 买卖股票系列](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/max_profit_test.go) |mark|
 |[10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/is_match_test.go) |mark|
+|[78. 子集 90. 子集 II](https://leetcode-cn.com/problems/subsets/ )| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/subsets_test.go) | |
 
 ### 贪心
 |题目| 解决  | 备注 |
@@ -160,5 +161,5 @@
 |[669. 修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/trim_BST_test.go) |mark|
 |[1367. 二叉树中的列表](https://leetcode-cn.com/problems/linked-list-in-binary-tree/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/is_sub_path_test.go) ||
 |[1372. 二叉树中的最长交错路径](https://leetcode-cn.com/problems/longest-zigzag-path-in-a-binary-tree/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/longest_zig_zag_test.go) ||
-
+|[687. 最长同值路径](https://leetcode-cn.com/problems/longest-univalue-path/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/longest_univalue_path_test.go) | |
 
