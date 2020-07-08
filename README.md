@@ -106,6 +106,7 @@
 |[7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/math/reverse_test.go) ||
 |[67. 二进制求和](https://leetcode-cn.com/problems/add-binary/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/math/add_binary_test.go) ||
 |[1323. 6 和 9 组成的最大数字](https://leetcode-cn.com/problems/maximum-69-number/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/math/maximum69_number_test.go) ||
+|[面试题 16.11. 跳水板](https://leetcode-cn.com/problems/diving-board-lcci/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/math/diving_board_test.go) ||
 
 ### 搜索
 |题目| 解决  | 备注 |
