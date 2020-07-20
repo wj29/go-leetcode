@@ -20,6 +20,12 @@
 |[54. 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/spiral_order_test.go) ||
 |[560. 和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/subarray_sum_test.go) ||
 |[81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/search_test.go) ||
+
+### 回溯
+|题目| 解决  | 备注 |
+|:----|:----  |:----|
+|[39. 组合总数](https://leetcode-cn.com/problems/combination-sum/) [40. 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/combination_sum_test.go) ||
+
 ### 双指针
 |题目| 解决  | 备注 |
 |:----|:----  |:----|
@@ -42,7 +48,6 @@
 |[416. 分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/can_partition_test.go) ||
 |[70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/climb_stairs_test.go) ||
 |[322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/) [518. 零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/coin_change_test.go) ||
-|[39. 组合总数](https://leetcode-cn.com/problems/combination-sum/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/combination_sum_test.go) ||
 |[494.目标和](https://leetcode-cn.com/problems/target-sum/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/find_target_sum_ways_test.go) ||
 |[343. 整数拆分](https://leetcode-cn.com/problems/integer-break/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/integer_break_test.go) ||
 |[300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/length_of_LIS_test.go) |mark|
