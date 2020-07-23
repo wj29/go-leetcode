@@ -25,6 +25,7 @@
 |题目| 解决  | 备注 |
 |:----|:----  |:----|
 |[39. 组合总数](https://leetcode-cn.com/problems/combination-sum/) [40. 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/combination_sum_test.go) ||
+|[46. 全排列](https://leetcode-cn.com/problems/permutations/) [47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/permute_test.go) |mark|
 
 ### 双指针
 |题目| 解决  | 备注 |

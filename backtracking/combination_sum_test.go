@@ -53,6 +53,6 @@ func path(candidates []int, target int, start int, prev []int, res *[][]int, isO
 		if isOnceOnly {
 			index += 1
 		}
-		path(candidates, target-candidates[i], index, append(prev, candidates[i]), res, isOnceOnly)
+		path(candidates, target-candidates[i], index, append(prev, candidates[i]), res, isOnceOnly) // 此处prev未变
 	}
 }
