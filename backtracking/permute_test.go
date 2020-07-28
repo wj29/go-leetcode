@@ -115,10 +115,29 @@ func permuteUnique(nums []int) [][]int {
 	sort.SliceStable(nums, func(i, j int) bool {
 		return nums[i] < nums[j]
 	})
-	backTrackForPermuteUnique(nums, []int{}, &ret)
+	m := make(map[int]bool)
+	backTrackForPermuteUnique(nums, 0, []int{}, &ret, m)
 	return ret
 }
 
-func backTrackForPermuteUnique(nums []int, prev []int, ret *[][]int) {
-	
+func backTrackForPermuteUnique(nums []int, start int, prev []int, ret *[][]int, m map[int]bool) {
+	if start == len(nums) {
+		tmp := make([]int, len(nums))
+		copy(tmp, prev)
+		*ret = append(*ret, tmp)
+		return
+	}
+	for i := 0; i < len(nums); i++ {
+		if m[i] {
+			continue
+		}
+		if i > 0 && nums[i] == nums[i-1] && !m[i-1] { // 之前的数还未使用过(说明已经回溯过)
+			continue
+		}
+		prev = append(prev, nums[i])
+		m[i] = true
+		backTrackForPermuteUnique(nums, start+1, prev, ret, m)
+		m[i] = false
+		prev = prev[:len(prev)-1]
+	}
 }
