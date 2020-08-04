@@ -26,6 +26,7 @@
 |:----|:----  |:----|
 |[39. 组合总数](https://leetcode-cn.com/problems/combination-sum/) [40. 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/combination_sum_test.go) ||
 |[46. 全排列](https://leetcode-cn.com/problems/permutations/) [47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/permute_test.go) |mark|
+|[79. 单词搜索](https://leetcode-cn.com/problems/word-search/) |[Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/exist_test.go) ||
 
 ### 双指针
 |题目| 解决  | 备注 |
@@ -79,6 +80,7 @@
 |[455. 分发饼干](https://leetcode-cn.com/problems/assign-cookies/description/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/find_content_children_test.go) ||
 |[452. 用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/find_min_arrow_shots_test.go) ||
 |[763. 划分字母区间](https://leetcode-cn.com/problems/partition-labels/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/partition_labels_test.go) ||
+|[767. 重构字符串](https://leetcode-cn.com/problems/reorganize-string/) |[Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/reorganize_string_test.go) ||
 
 ### 哈希
 |题目| 解决  | 备注 |
@@ -120,6 +122,7 @@
 |[278. 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/first_bad_version_test.go) ||
 |[695. 岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/max_area_of_island_test.go) ||
 |[1091. 二进制矩阵中的最短路径](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/shortest_path_binary_matrix_test.go) ||
+|[207. 课程表](https://leetcode-cn.com/problems/course-schedule/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/can_finish_test.go)||
 
 ### 栈与队列
 |题目| 解决  | 备注 |
