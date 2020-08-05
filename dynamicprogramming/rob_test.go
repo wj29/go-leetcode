@@ -1,6 +1,7 @@
 package dynamicprogramming
 
 import (
+	"github.com/wujiang1994/go-leetcode/common"
 	"testing"
 )
 
@@ -11,11 +12,18 @@ import (
 
 // 这个沿街的房屋是环形的，意味着偷了第一家就不能偷最后一家
 // https://leetcode-cn.com/problems/house-robber-ii/ medium
+
+// 房屋是二叉树排列，不能偷直接连接的两家
+// https://leetcode-cn.com/problems/house-robber-iii/
 func Test_Rob(t *testing.T) {
 	nums := []int{1, 2, 3, 1}
 	nums = []int{2, 7, 9, 3, 1}
 	t.Log(rob(nums))
 	t.Log(rob2(nums))
+	root := &TreeNode{Val: 1}
+	root.Left = &TreeNode{Val: 2}
+	root.Right = &TreeNode{Val: 3}
+	t.Log(rob3(root))
 }
 
 // 由于只能最少间隔一家，假若f(n-1)的最大值不包括nums[n-1]，那么f(n)的值一定是f(n-1)+nums[i]，中间间隔了nums[n-1]
@@ -84,7 +92,7 @@ func rob2(nums []int) int {
 	dp1[1], dp2[1] = max(nums1[0], nums1[1]), max(nums2[0], nums2[1])
 	for i := 2; i < len(nums)-1; i++ {
 		dp1[i] = max(dp1[i-1], dp1[i-2]+nums1[i])
-		
+
 		dp2[i] = max(dp2[i-1], dp2[i-2]+nums2[i])
 	}
 	return max(dp1[len(nums)-2], dp2[len(nums)-2])
@@ -95,4 +103,41 @@ func max(a, b int) int {
 		return a
 	}
 	return b
+}
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
+
+// 对于二叉树任一个节点，它有被偷和不被偷两种情况
+// 当它被偷时，它的左右孩子节点都不可以被偷，它的值等于左右孩子节点不被偷的情况下的最大值和，左右孩子不被偷，那么左右孩子的左右孩子都可以被偷
+// 当它没有被偷时，它的左右孩子节点都可以被偷，它的值等于左孩子的被偷和不被偷较大者+右孩子被偷和不被偷较大者
+func rob3(root *TreeNode) int {
+	return steal(root)
+}
+
+func steal(root *TreeNode) int {
+	if root == nil {
+		return 0
+	}
+	var (
+		noLeft  int
+		noRight int
+		left    int
+		right   int
+	)
+
+	// 被偷
+	if root.Left != nil {
+		left = steal(root.Left.Left) + steal(root.Left.Right)
+	}
+	if root.Right != nil {
+		right = steal(root.Right.Left) + steal(root.Right.Right)
+	}
+	// 没被偷
+	noLeft = steal(root.Left)
+	noRight = steal(root.Right)
+	return common.Max(root.Val+left+right, noLeft+noRight)
 }
