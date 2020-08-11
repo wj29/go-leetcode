@@ -42,7 +42,8 @@
 |[633. 平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/twosum_squared_test.go) ||
 |[167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/twosum_test.go) ||
 |[680. 验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/valid_palindrome_test.go) ||
-|[125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint//is_palindrome_test)||
+|[125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/is_palindrome_test.go)||
+|[696. 计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/count_binary_substrings_test.go)||
 
 ### 动态规划
 |题目| 解决  | 备注 |
@@ -70,6 +71,7 @@
 |[121. 买卖股票系列](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/max_profit_test.go) |mark|
 |[10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/is_match_test.go) |mark|
 |[78. 子集 90. 子集 II](https://leetcode-cn.com/problems/subsets/ )| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/subsets_test.go) | |
+|[221. 最大正方形](https://leetcode-cn.com/problems/maximal-square/) [1277. 统计全为 1 的正方形子矩阵](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/maximal_square_test.go) | |
 
 ### 贪心
 |题目| 解决  | 备注 |
@@ -123,6 +125,7 @@
 |[695. 岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/max_area_of_island_test.go) ||
 |[1091. 二进制矩阵中的最短路径](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/shortest_path_binary_matrix_test.go) ||
 |[207. 课程表](https://leetcode-cn.com/problems/course-schedule/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/can_finish_test.go)||
+|[130. 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/solve_test.go) | |
 
 ### 栈与队列
 |题目| 解决  | 备注 |
