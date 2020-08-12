@@ -27,6 +27,7 @@
 |[39. 组合总数](https://leetcode-cn.com/problems/combination-sum/) [40. 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/combination_sum_test.go) ||
 |[46. 全排列](https://leetcode-cn.com/problems/permutations/) [47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/permute_test.go) |mark|
 |[79. 单词搜索](https://leetcode-cn.com/problems/word-search/) |[Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/exist_test.go) ||
+|[22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/generate_parenthesis_test.go) | |
 
 ### 双指针
 |题目| 解决  | 备注 |
@@ -72,6 +73,7 @@
 |[10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/is_match_test.go) |mark|
 |[78. 子集 90. 子集 II](https://leetcode-cn.com/problems/subsets/ )| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/subsets_test.go) | |
 |[221. 最大正方形](https://leetcode-cn.com/problems/maximal-square/) [1277. 统计全为 1 的正方形子矩阵](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/maximal_square_test.go) | |
+|[17. 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/letter_combinations_test.go)| |
 
 ### 贪心
 |题目| 解决  | 备注 |
@@ -126,6 +128,7 @@
 |[1091. 二进制矩阵中的最短路径](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/shortest_path_binary_matrix_test.go) ||
 |[207. 课程表](https://leetcode-cn.com/problems/course-schedule/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/can_finish_test.go)||
 |[130. 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/solve_test.go) | |
+|[133. 克隆图](https://leetcode-cn.com/problems/clone-graph/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/clone_graph_test.go) | |
 
 ### 栈与队列
 |题目| 解决  | 备注 |
