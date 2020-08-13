@@ -119,6 +119,7 @@
 |[67. 二进制求和](https://leetcode-cn.com/problems/add-binary/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/math/add_binary_test.go) ||
 |[1323. 6 和 9 组成的最大数字](https://leetcode-cn.com/problems/maximum-69-number/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/math/maximum69_number_test.go) ||
 |[面试题 16.11. 跳水板](https://leetcode-cn.com/problems/diving-board-lcci/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/math/diving_board_test.go) ||
+|[43. 字符串相乘](https://leetcode-cn.com/problems/multiply-strings/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/math/multiply_test.go)||
 
 ### 搜索
 |题目| 解决  | 备注 |
@@ -138,6 +139,7 @@
 |[496. 下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i) [503. 下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/next_greater_element_test.go) ||
 |[225. 用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/queue_implement_stack_test.go) ||
 |[232. 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/description/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/stack_implement_queue_test.go) ||
+|[32. 最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/longest_valid_parentheses_test.go) ||
 
 ### sort
 |题目| 解决  | 备注 |
