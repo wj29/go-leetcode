@@ -28,6 +28,7 @@
 |[46. 全排列](https://leetcode-cn.com/problems/permutations/) [47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/permute_test.go) |mark|
 |[79. 单词搜索](https://leetcode-cn.com/problems/word-search/) |[Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/exist_test.go) ||
 |[22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/generate_parenthesis_test.go) | |
+|[93. 复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/restore_ip_addresses_test.go)| |
 
 ### 双指针
 |题目| 解决  | 备注 |
@@ -140,6 +141,7 @@
 |[225. 用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/queue_implement_stack_test.go) ||
 |[232. 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/description/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/stack_implement_queue_test.go) ||
 |[32. 最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/longest_valid_parentheses_test.go) ||
+|[20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/is_valid_test.go)| |
 
 ### sort
 |题目| 解决  | 备注 |
