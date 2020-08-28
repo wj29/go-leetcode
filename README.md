@@ -20,6 +20,7 @@
 |[54. 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/spiral_order_test.go) ||
 |[560. 和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/subarray_sum_test.go) ||
 |[81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/search_test.go) ||
+|[336. 回文对](https://leetcode-cn.com/problems/palindrome-pairs/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/palindrome_pairs_test.go)|mark|
 
 ### 回溯
 |题目| 解决  | 备注 |
@@ -29,6 +30,7 @@
 |[79. 单词搜索](https://leetcode-cn.com/problems/word-search/) |[Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/exist_test.go) ||
 |[22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/generate_parenthesis_test.go) | |
 |[93. 复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/restore_ip_addresses_test.go)| |
+|[332. 重新安排行程](https://leetcode-cn.com/problems/reconstruct-itinerary/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/restore_ip_addresses_test.go)||
 
 ### 双指针
 |题目| 解决  | 备注 |
@@ -71,7 +73,7 @@
 |[740. 删除与获得点数](https://leetcode-cn.com/problems/delete-and-earn/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/delete_and_earn_test.go) ||
 |[746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/min_cost_climbing_stairs_test.go) ||
 |[121. 买卖股票系列](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/max_profit_test.go) |mark|
-|[10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/is_match_test.go) |mark|
+|[10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/) [44. 通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/is_match_test.go) |mark|
 |[78. 子集 90. 子集 II](https://leetcode-cn.com/problems/subsets/ )| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/subsets_test.go) | |
 |[221. 最大正方形](https://leetcode-cn.com/problems/maximal-square/) [1277. 统计全为 1 的正方形子矩阵](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/maximal_square_test.go) | |
 |[17. 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/letter_combinations_test.go)| |
@@ -86,6 +88,7 @@
 |[452. 用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/find_min_arrow_shots_test.go) ||
 |[763. 划分字母区间](https://leetcode-cn.com/problems/partition-labels/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/partition_labels_test.go) ||
 |[767. 重构字符串](https://leetcode-cn.com/problems/reorganize-string/) |[Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/reorganize_string_test.go) ||
+|[12. 整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/) [13. 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/int_to_roman_test.go)| mark |
 
 ### 哈希
 |题目| 解决  | 备注 |
@@ -147,6 +150,13 @@
 |题目| 解决  | 备注 |
 |:----|:----  |:----|
 |排序算法 | [Go](https://github.com/wujiang1994/go-leetcode/tree/master/sort) |mark|
+
+### 字符串
+|题目| 解决  | 备注 |
+|:----|:----  |:----|
+|[6. Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/convert_test.go) ||
+|[459. 重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern/)| [go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/repeated_substring_pattern_test.go) ||
+
 
 ### 树
 |题目| 解决  | 备注 |

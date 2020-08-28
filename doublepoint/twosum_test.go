@@ -30,10 +30,10 @@ func twoSum(arr []int, sum int) (int, int) {
 	return 0, 0
 }
 
-// 使用双向指针，双端逼近，和较小移动较小元素，和较大移动较大元素 时间负载度n
+// 使用双向指针，双端逼近，和较小移动较小元素，和较大移动较大元素 时间复杂度n
 func twoSumPoint(arr []int, sum int) []int {
 	if len(arr) <= 2 {
-		return []int{0, 0}
+		return nil
 	}
 	l := 0
 	r := len(arr) - 1
@@ -46,7 +46,7 @@ func twoSumPoint(arr []int, sum int) []int {
 			l++
 		}
 		if l >= r {
-			return []int{0, 0}
+			return nil
 		}
 	}
 }
