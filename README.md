@@ -134,6 +134,7 @@
 |[207. 课程表](https://leetcode-cn.com/problems/course-schedule/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/can_finish_test.go)||
 |[130. 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/solve_test.go) | |
 |[133. 克隆图](https://leetcode-cn.com/problems/clone-graph/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/clone_graph_test.go) | |
+|[841. 钥匙和房间](https://leetcode-cn.com/problems/keys-and-rooms/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/can_visit_all_rooms_test.go) | |
 
 ### 栈与队列
 |题目| 解决  | 备注 |
@@ -192,4 +193,9 @@
 |[1367. 二叉树中的列表](https://leetcode-cn.com/problems/linked-list-in-binary-tree/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/is_sub_path_test.go) ||
 |[1372. 二叉树中的最长交错路径](https://leetcode-cn.com/problems/longest-zigzag-path-in-a-binary-tree/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/longest_zig_zag_test.go) ||
 |[687. 最长同值路径](https://leetcode-cn.com/problems/longest-univalue-path/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/longest_univalue_path_test.go) | |
-
+|[173. 二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/BST_iterator_test.go)||
+|[116. 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) [117. 填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/connect_test.go)||
+|[102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) [107. 二叉树的层序遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) [429. N叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/level_order_test.go)|mark|
+|[124. 二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/max_path_sum_test.go)|mark|
+|[199. 二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/right_side_view_test.go)||
+|[129. 求根到叶子节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/tree/sum_numbers_test.go)||
