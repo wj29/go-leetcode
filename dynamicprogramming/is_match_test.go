@@ -1,8 +1,6 @@
 package dynamicprogramming
 
 import (
-	"fmt"
-	"reflect"
 	"testing"
 )
 

@@ -48,6 +48,8 @@
 |[680. 验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/valid_palindrome_test.go) ||
 |[125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/is_palindrome_test.go)||
 |[696. 计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/count_binary_substrings_test.go)||
+|[567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/check_inclusion_test.go)||
+|[76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/min_window_test.go)|mark|
 
 ### 动态规划
 |题目| 解决  | 备注 |
@@ -77,6 +79,8 @@
 |[78. 子集 90. 子集 II](https://leetcode-cn.com/problems/subsets/ )| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/subsets_test.go) | |
 |[221. 最大正方形](https://leetcode-cn.com/problems/maximal-square/) [1277. 统计全为 1 的正方形子矩阵](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/maximal_square_test.go) | |
 |[17. 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/letter_combinations_test.go)| |
+|[1312. 让字符串成为回文串的最少插入次数](https://leetcode-cn.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/min_insertions_test.go)||
+|[486. 预测赢家](https://leetcode-cn.com/problems/predict-the-winner/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/predict_the_winner_test.go)|mark|
 
 ### 贪心
 |题目| 解决  | 备注 |
