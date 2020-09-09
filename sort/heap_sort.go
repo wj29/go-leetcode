@@ -1,6 +1,7 @@
 package sort
 
-// 堆排序是不稳定排序，时间复杂度Nlog2(N)，2为对数底数
+// 堆排序是不稳定排序，时间复杂度NlogN
+// 最佳和最坏时间复杂度都是NlogN
 func heapSort(arr []int) {
 	// 建堆 只能保证堆顶元素是最大(小)
 	//  1 3 2 5 4 6 满足建堆且堆顶最大(小)
@@ -10,7 +11,7 @@ func heapSort(arr []int) {
 	// 将堆顶排到切片末尾(降序)
 	length := len(arr)
 	for i := length - 1; i >= 0; i-- {
-		arr[0], arr[i] = arr[i], arr[0] // 将堆顶元素防到末尾，剩下的进行堆排序
+		arr[0], arr[i] = arr[i], arr[0] // 将堆顶元素放到末尾，剩下的进行堆排序
 		length--
 		heap(arr, 0, length)
 	}

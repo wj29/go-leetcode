@@ -1,7 +1,8 @@
 package sort
 
-// 归并排序是稳定排序,时间复杂度Nlog2(N)，2代表底数，空间复杂度N
+// 归并排序是稳定排序,时间复杂度NlogN，空间复杂度N
 // 稳定性的保证在归并时按照原有顺序进行归并即可
+// 最佳与最坏时间复杂度都是NlogN
 func mergeSort(arr []int) []int {
 	if len(arr) <= 1 {
 		return arr

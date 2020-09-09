@@ -16,7 +16,7 @@ func bucketSort(arr []int) {
 	tmpPos := 0
 	for i := 0; i < len(bucket); i++ {
 		if len(bucket[i]) > 0 {
-			sortImnBucket(bucket[i], 0, len(bucket[i])-1)
+			sortInBucket(bucket[i], 0, len(bucket[i])-1)
 			copy(arr[tmpPos:], bucket[i])
 			tmpPos += len(bucket[i])
 		}
@@ -37,7 +37,7 @@ func getMaxInArr(arr []int) int {
 }
 
 // 可以选择任意排序算法
-func sortImnBucket(arr []int, start, end int) {
+func sortInBucket(arr []int, start, end int) {
 	if start >= end {
 		return
 	}
@@ -60,6 +60,6 @@ func sortImnBucket(arr []int, start, end int) {
 	}
 	arr[start], arr[right] = arr[right], arr[start]
 
-	sortImnBucket(arr, start, right)
-	sortImnBucket(arr, right+1, end)
+	sortInBucket(arr, start, right)
+	sortInBucket(arr, right+1, end)
 }
