@@ -1,6 +1,7 @@
 package backtracking
 
 import (
+	"github.com/wujiang1994/go-leetcode/common"
 	"sort"
 	"testing"
 )
@@ -19,6 +20,9 @@ func Test_CombinationSum(t *testing.T) {
 	target := 7
 	t.Log(combinationSum(candidates, target, false))
 	t.Log(combinationSum(candidates, target, true))
+	k, n := 3, 7
+	k, n = 3, 9
+	t.Log(combinationSum3(k, n))
 }
 
 // 递归，类似于二叉树的根结点到叶子结点和为target的路径 /tree/path_sum_test.go
@@ -54,5 +58,28 @@ func path(candidates []int, target int, start int, prev []int, res *[][]int, isO
 			index += 1
 		}
 		path(candidates, target-candidates[i], index, append(prev, candidates[i]), res, isOnceOnly) // 此处prev未变
+	}
+}
+
+// 216. 组合总和 III
+// https://leetcode-cn.com/problems/combination-sum-iii/
+func combinationSum3(k int, n int) [][]int {
+	ret := make([][]int, 0)
+	backTraceForCombinationSum3(&ret, []int{}, 1, n, k)
+	return ret
+}
+
+func backTraceForCombinationSum3(ret *[][]int, prev []int, start, n, k int) {
+	if len(prev) == k && common.Sum(prev) == n {
+		tmp := make([]int, k)
+		copy(tmp, prev)
+		*ret = append(*ret, tmp)
+		return
+	}
+	for i := start; i < 10; i++ {
+		if len(prev) >= k {
+			continue
+		}
+		backTraceForCombinationSum3(ret, append(prev, i), i+1, n, k)
 	}
 }
