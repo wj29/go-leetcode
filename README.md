@@ -17,7 +17,7 @@
 |[283. 移动零](https://leetcode-cn.com/problems/move-zeroes/description/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/move_zeroes_test.go) ||
 |[238. 除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/product_except_self_test.go) |mark|
 |[27. 移除元素](https://leetcode-cn.com/problems/remove-element/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/remove_element_test.go) ||
-|[54. 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/spiral_order_test.go) ||
+|[54. 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/) [59. 螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/spiral_order_test.go) ||
 |[560. 和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/subarray_sum_test.go) ||
 |[81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/search_test.go) ||
 |[336. 回文对](https://leetcode-cn.com/problems/palindrome-pairs/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/palindrome_pairs_test.go)|mark|
@@ -148,7 +148,7 @@
 |:----|:----  |:----|
 |[394. 字符串解码](https://leetcode-cn.com/problems/decode-string/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/decode_string_test.go) ||
 |[155. 最小栈](https://leetcode-cn.com/problems/min-stack/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/min_stack_test.go) ||
-|[496. 下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i) [503. 下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/next_greater_element_test.go) ||
+|[496. 下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i) [503. 下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/next_greater_element_test.go) |mark|
 |[225. 用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/queue_implement_stack_test.go) ||
 |[232. 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/description/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/stack_implement_queue_test.go) ||
 |[32. 最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/longest_valid_parentheses_test.go) ||
@@ -168,6 +168,7 @@
 |[6. Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/string/convert_test.go) ||
 |[459. 重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern/)| [go](https://github.com/wujiang1994/go-leetcode/blob/master/string/repeated_substring_pattern_test.go) ||
 |[剑指 Offer 20. 表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/string/is_number_test.go)|mark|
+|[28. 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/string/str_str_test.go)|mark|
 
 ### 树
 |题目| 解决  | 备注 |
