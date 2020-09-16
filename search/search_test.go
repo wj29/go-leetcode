@@ -1,4 +1,4 @@
-package doublepoint
+package search
 
 import "testing"
 
