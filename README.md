@@ -22,6 +22,9 @@
 |[81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/search_test.go) ||
 |[336. 回文对](https://leetcode-cn.com/problems/palindrome-pairs/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/palindrome_pairs_test.go)|mark|
 |[41. 缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/first_missing_positive_test.go)||
+|[974. 和可被 K 整除的子数组](https://leetcode-cn.com/problems/subarray-sums-divisible-by-k/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/subarrays_div_by_K_test.go) ||
+|[1589. 所有排列中的最大和](https://leetcode-cn.com/problems/maximum-sum-obtained-of-any-permutation/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/max_sum_range_query_test.go)| mark|
+|[5504. 使数组和能被 P 整除](https://leetcode-cn.com/problems/make-sum-divisible-by-p/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/min_subarray_test.go)| mark|
 
 ### 回溯
 |题目| 解决  | 备注 |
@@ -70,7 +73,6 @@
 |[120. 三角形最小路径和](https://leetcode-cn.com/problems/triangle/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/minimum_total_test.go) ||
 |[413. 等差数列划分](https://leetcode-cn.com/problems/arithmetic-slices/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/number_of_arithmetic_slices_test.go) ||
 |[198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/) [213. 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/rob_test.go) ||
-|[974. 和可被 K 整除的子数组](https://leetcode-cn.com/problems/subarray-sums-divisible-by-k/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/subarrays_div_by_K_test.go) ||
 |[面试题46. 把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/translate_num_test.go) ||
 |[62. 不同路径](https://leetcode-cn.com/problems/unique-paths/) [64. 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) [面试题47. 礼物的最大价值](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/unique_paths_test.go) ||
 |[139. 单词拆分](https://leetcode-cn.com/problems/word-break/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/word_break_test.go) ||
@@ -121,6 +123,7 @@
 |[206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/reverse_list_test.go) ||
 |[725. 分隔链表](https://leetcode-cn.com/problems/split-linked-list-in-parts/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/split_list_to_parts_test.go) ||
 |[24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/swap_pairs_test.go) ||
+|[23. 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/merge_K_lists_test.go)|mark |
 
 ### 数学
 |题目| 解决  | 备注 |
@@ -144,6 +147,7 @@
 |[841. 钥匙和房间](https://leetcode-cn.com/problems/keys-and-rooms/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/can_visit_all_rooms_test.go) | |
 |[33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/search_test.go)| |
 |[34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/search_range_test.go)|mark|
+|[684. 冗余连接](https://leetcode-cn.com/problems/redundant-connection/) [685. 冗余连接 II](https://leetcode-cn.com/problems/redundant-connection-ii/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/find_redundant_connection_test.go)|mark|
 
 ### 栈与队列
 |题目| 解决  | 备注 |

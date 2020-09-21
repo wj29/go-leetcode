@@ -1,7 +1,6 @@
 package arrayandmatrix
 
 import (
-	"fmt"
 	"testing"
 )
 
@@ -22,7 +21,6 @@ func subarraySum(nums []int, k int) int {
 	for i := 0; i < len(nums); i++ {
 		pre[i+1] += nums[i] + pre[i]
 	}
-	fmt.Println(pre)
 	count := 0
 	for i := 1; i < len(pre); i++ {
 		for j := 0; j < i; j++ {
@@ -32,4 +30,22 @@ func subarraySum(nums []int, k int) int {
 		}
 	}
 	return count
+}
+
+// 对于和为K的子数组，nums[i:j]即满足prev[j] - prev[i] == K
+// 即prev[i] == prev[j] - K
+// 将prev[i]作为map的key，向后统计，满足prev[j]-K == key时，val++
+// 统计出共有多少个何为K的子数组
+func subarraySum2(nums []int, k int) int {
+	ret, sum := 0, 0
+	m := make(map[int]int)
+	m[0] = 1 // 对于[5,0]这样的子数组，计数应该是1+1，而不是1，特殊情况本身nums[i] == k，需要加上其自身
+	for i := 0; i < len(nums); i++ {
+		sum += nums[i]
+		if v, ok := m[sum-k]; ok {
+			ret += v
+		}
+		m[sum]++
+	}
+	return ret
 }

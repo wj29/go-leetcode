@@ -1,8 +1,8 @@
 package hash
 
 import (
-	"testing"
 	"github.com/wujiang1994/go-leetcode/common"
+	"testing"
 )
 
 // 给定一个未排序的整数数组，找出最长连续序列的长度
@@ -20,19 +20,17 @@ func Test_LongestConsecutive(t *testing.T) {
 // 排序，再遍历，时间复杂度为排序的时间复杂度
 // 遍历对每个元素进行hash，记录每个元素的个数，hash查找的时间复杂度为1，遍历时间复杂度为N
 func longestConsecutive(nums []int) int {
-	m := make(map[int]int)
+	m := make(map[int]bool)
 	for _, v := range nums {
-		if _, ok := m[v]; ok {
-			m[v] ++
-		} else {
-			m[v] = 1
+		if !m[v] {
+			m[v] = true
 		}
 	}
 	l := 0
 	for i := range m {
 		count := 0
 		for {
-			if _, ok := m[i]; ok {
+			if m[i] {
 				count += 1
 				i += 1
 			} else {

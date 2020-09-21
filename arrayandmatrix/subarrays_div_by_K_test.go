@@ -1,4 +1,4 @@
-package dynamicprogramming
+package arrayandmatrix
 
 import (
 	"testing"
@@ -41,22 +41,20 @@ func subarraysDivByK(A []int, K int) int {
 	return count
 }
 
-// (prev[i]-prev[j])%K == 0 同余定理 可以表示成 prev[i]modK == prev[j]modK，那么只需要一次遍历即可
-// 排列组合中两两组合的个数 + 加上一个数据前的长度 = 变换后两两组合的个数
+// 同余定理
+// 对于(sum[j]−sum[i])%K==0 等于 sum[j]%K == sum[i]%K
+// 对于nums[i:j]可被K整除的下标i，使用sum[i]%K作为map的key值，发现有与其相同的余数val++
+// C(2,n) = n(n-1)/2，有n个相同的key，那么在统计的过程中可以通过++实现计数
 // A B C 两两组合个数3，加入D后A B C D个数为6，3 + 3 =6
-// 即Cn 2 + n = Cn+1 2
 func subarraysDivByK1(A []int, K int) int {
-	record := map[int]int{0: 0}
-	sum, ans := 0, 0
-	B := make([]int, 0)
-	B = append(B, 0)
-	B = append(B, A...)
-	for _, elem := range B {
-		sum += elem
-		modulus := (sum % K + K) % K
-		//modulus := sum % K // 错误
-		ans += record[modulus]
-		record[modulus]++
+	ret, sum := 0, 0
+	m := make(map[int]int)
+	m[0] = 1 // 对于[5,0]这样的子数组，计数应该是1+2，而不是1，特殊情况本身nums[i]%K==0，需要加上其自身
+	for i := 0; i < len(A); i++ {
+		sum += A[i]
+		key := (sum%K + K) % K // 取模
+		ret += m[key]
+		m[key]++
 	}
-	return ans
+	return ret
 }
