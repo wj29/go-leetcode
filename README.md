@@ -36,6 +36,7 @@
 |[93. 复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/restore_ip_addresses_test.go)| |
 |[332. 重新安排行程](https://leetcode-cn.com/problems/reconstruct-itinerary/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/restore_ip_addresses_test.go)||
 |[51. N 皇后](https://leetcode-cn.com/problems/n-queens/) [52. N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)| [Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/solve_n_queens_test.go) | mark|
+|[36. 有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) [37. 解数独](https://leetcode-cn.com/problems/sudoku-solver/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/backtracking/solve_sudoku_test.go)| |
 
 ### 双指针
 |题目| 解决  | 备注 |
