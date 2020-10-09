@@ -28,3 +28,12 @@ func Sum(nums []int) int {
 	}
 	return ret
 }
+
+func StringInSlice(slice []string, ele string) int {
+	for i := 0; i < len(slice); i++ {
+		if ele == slice[i] {
+			return i
+		}
+	}
+	return -1
+}

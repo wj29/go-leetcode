@@ -56,6 +56,7 @@
 |[696. 计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/count_binary_substrings_test.go)||
 |[567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/check_inclusion_test.go)||
 |[76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/min_window_test.go)|mark|
+|[581. 最短无序连续子数组](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/find_unsorted_subarray_test.go)||
 
 ### 动态规划
 |题目| 解决  | 备注 |
@@ -149,6 +150,7 @@
 |[33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/search_test.go)| |
 |[34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/search_range_test.go)|mark|
 |[684. 冗余连接](https://leetcode-cn.com/problems/redundant-connection/) [685. 冗余连接 II](https://leetcode-cn.com/problems/redundant-connection-ii/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/find_redundant_connection_test.go)|mark|
+|[127. 单词接龙](https://leetcode-cn.com/problems/word-ladder/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/ladder_length_test.go)||
 
 ### 栈与队列
 |题目| 解决  | 备注 |
