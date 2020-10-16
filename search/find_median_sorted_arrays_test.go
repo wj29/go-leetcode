@@ -1,4 +1,4 @@
-package arrayandmatrix
+package search
 
 import (
 	"github.com/wujiang1994/go-leetcode/common"

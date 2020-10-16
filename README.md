@@ -12,7 +12,6 @@
 |[350. 两个数组的交集II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/intersect_test.go) ||
 |[349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/intersection_test.go) ||
 |[566. 重塑矩阵](https://leetcode-cn.com/problems/reshape-the-matrix/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/matrix_reshape_test.go) ||
-|[4. 寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/find_median_sorted_arrays_test.go) |mark|
 |[209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/min_sub_array_len_test.go) ||
 |[283. 移动零](https://leetcode-cn.com/problems/move-zeroes/description/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/move_zeroes_test.go) ||
 |[238. 除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/arrayandmatrix/product_except_self_test.go) |mark|
@@ -88,6 +87,7 @@
 |[1312. 让字符串成为回文串的最少插入次数](https://leetcode-cn.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/min_insertions_test.go)||
 |[486. 预测赢家](https://leetcode-cn.com/problems/predict-the-winner/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/predict_the_winner_test.go)|mark|
 |[72. 编辑距离](https://leetcode-cn.com/problems/edit-distance/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/min_distance_test.go)|mark|
+|[55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/) [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/can_jump_test.go)||
 
 ### 贪心
 |题目| 解决  | 备注 |
@@ -122,7 +122,7 @@
 |[21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/merge_two_lists_test.go) ||
 |[328. 奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/odd_even_list_test.go) ||
 |[19. 删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/remove_nth_from_end_test.go) |mark|
-|[206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/reverse_list_test.go) ||
+|[206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) [25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/reverse_list_test.go) |mark|
 |[725. 分隔链表](https://leetcode-cn.com/problems/split-linked-list-in-parts/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/split_list_to_parts_test.go) ||
 |[24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/swap_pairs_test.go) ||
 |[23. 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/merge_K_lists_test.go)|mark |
@@ -151,6 +151,7 @@
 |[34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/search_range_test.go)|mark|
 |[684. 冗余连接](https://leetcode-cn.com/problems/redundant-connection/) [685. 冗余连接 II](https://leetcode-cn.com/problems/redundant-connection-ii/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/find_redundant_connection_test.go)|mark|
 |[127. 单词接龙](https://leetcode-cn.com/problems/word-ladder/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/ladder_length_test.go)||
+|[4. 寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/find_median_sorted_arrays_test.go) |mark|
 
 ### 栈与队列
 |题目| 解决  | 备注 |

@@ -4,9 +4,6 @@ package sort
 // 最佳时间复杂度N，最坏N^2，当数据已经是有序排列时，不需要进行插入操作
 // 由于插入排序是将后序的数据插入前面已经有序的数据中，从后往前遍历，未排序的相同关键字会在后面，保证了相对顺序
 func insertSort(arr []int) {
-	if len(arr) <= 1 {
-		return
-	}
 	for i := 1; i < len(arr); i++ {
 		backup := arr[i]
 		j := i - 1

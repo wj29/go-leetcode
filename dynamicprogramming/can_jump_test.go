@@ -1,9 +1,15 @@
-package backtracking
+package dynamicprogramming
 
 import (
+	"github.com/wujiang1994/go-leetcode/common"
+	"math"
 	"testing"
 )
 
+// 55. 跳跃游戏
+// https://leetcode-cn.com/problems/jump-game/
+// 45. 跳跃游戏 II
+// https://leetcode-cn.com/problems/jump-game-ii/
 func Test_CanJump(t *testing.T) {
 	nums := []int{3, 2, 1, 0, 4}
 	nums = []int{2, 0, 6, 9, 8, 4, 5, 0, 8, 9, 1, 2, 9, 6, 8, 8, 0, 6, 3, 1, 2, 2, 1, 2, 6, 5, 3, 1, 2, 2, 6, 4, 2, 4, 3, 0, 0, 0, 3, 8, 2, 4, 0, 1, 2, 0, 1, 4, 6, 5, 8, 0, 7, 9, 3, 4, 6, 6, 5, 8, 9, 3, 4, 3, 7, 0, 4, 9, 0, 9, 8, 4, 3, 0, 7, 7, 1, 9, 1, 9, 4, 9, 0, 1, 9, 5, 7, 7, 1, 5, 8, 2, 8, 2, 6, 8, 2, 2, 7, 5, 1, 7, 9, 6}
@@ -11,6 +17,9 @@ func Test_CanJump(t *testing.T) {
 	nums = []int{2, 0}
 	nums = []int{8, 2, 4, 4, 4, 9, 5, 2, 5, 8, 8, 0, 8, 6, 9, 1, 1, 6, 3, 5, 1, 2, 6, 6, 0, 4, 8, 6, 0, 3, 2, 8, 7, 6, 5, 1, 7, 0, 3, 4, 8, 3, 5, 9, 0, 4, 0, 1, 0, 5, 9, 2, 0, 7, 0, 2, 1, 0, 8, 2, 5, 1, 2, 3, 9, 7, 4, 7, 0, 0, 1, 8, 5, 6, 7, 5, 1, 9, 9, 3, 5, 0, 7, 5}
 	t.Log(canJump2(nums))
+
+	nums = []int{2, 3, 1, 1, 4}
+	t.Log(jump(nums))
 }
 
 // 超时
@@ -67,4 +76,23 @@ func canJump2(nums []int) bool {
 		}
 	}
 	return false
+}
+
+// 记达到下标i的最少跳跃次数为dp[i],那么对于nums[i]来说，可以跳跃到其的下标满足的条件为x+nums[x]>=i
+// 即dp方程为dp[i] = min(dp[x]) + 1
+func jump(nums []int) int {
+	dp := make([]int, len(nums))
+	for i := range dp {
+		dp[i] = math.MaxInt32
+	}
+	dp[0] = 0
+
+	for i := 1; i < len(nums); i++ {
+		for j := 0; j < i; j++ {
+			if j+nums[j] >= i {
+				dp[i] = common.Min(dp[i], dp[j]+1)
+			}
+		}
+	}
+	return dp[len(nums)-1]
 }

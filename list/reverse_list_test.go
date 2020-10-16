@@ -6,6 +6,9 @@ import (
 
 // 反转单链表
 // https://leetcode-cn.com/problems/reverse-linked-list/description/  easy
+
+// 25. K 个一组翻转链表
+// https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
 func Test_ReverseList(t *testing.T) {
 	p := NewList()
 	//for p != nil {
@@ -56,4 +59,37 @@ func reverseListByArr(head *ListNode) *ListNode {
 		tmp = tmp.Next
 	}
 	return r.Next
+}
+
+func reverseKGroup(head *ListNode, k int) *ListNode {
+	if head == nil {
+		return nil
+	}
+	stack := make([]*ListNode, 0)
+	hair := &ListNode{
+		Next: head,
+	}
+	current := hair.Next
+	tmp := hair
+	count := 0
+
+	for current != nil {
+		stack = append(stack, current)
+		count++
+		current = current.Next
+		if count == k {
+			count = 0
+			for len(stack) > 0 {
+				index := len(stack)-1
+				stack[index].Next = nil
+				tmp.Next = stack[index]
+				stack = stack[:index]
+				tmp = tmp.Next
+			}
+		}
+	}
+	if len(stack) > 0 {
+		tmp.Next = stack[0]
+	}
+	return hair.Next
 }

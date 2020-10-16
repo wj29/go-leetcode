@@ -6,11 +6,11 @@ func bucketSort(arr []int) {
 	if len(arr) <= 1 {
 		return
 	}
-	num := len(arr)
+	length := len(arr)
 	max := getMaxInArr(arr)
-	bucket := make([][]int, num)
+	bucket := make([][]int, length)
 	for i := 0; i < len(arr); i++ {
-		index := arr[i] * (num - 1) / max // 所有的arr[i]<=max，最大index为len(num)-1，分块进行排序
+		index := arr[i] * (length - 1) / max // 所有的arr[i]<=max，最大index为len(num)-1，分块进行排序
 		bucket[index] = append(bucket[index], arr[i])
 	}
 	tmpPos := 0
@@ -24,9 +24,6 @@ func bucketSort(arr []int) {
 }
 
 func getMaxInArr(arr []int) int {
-	if len(arr) <= 0 {
-		panic("invalid arr length")
-	}
 	max := arr[0]
 	for i := 0; i < len(arr); i++ {
 		if arr[i] > max {
