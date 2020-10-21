@@ -179,6 +179,7 @@
 |[459. 重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern/)| [go](https://github.com/wujiang1994/go-leetcode/blob/master/string/repeated_substring_pattern_test.go) ||
 |[剑指 Offer 20. 表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/string/is_number_test.go)|mark|
 |[28. 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/string/str_str_test.go)|mark|
+|[925. 长按键入](https://leetcode-cn.com/problems/long-pressed-name/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/string/is_long_pressed_name_test.go)||
 
 ### 树
 |题目| 解决  | 备注 |

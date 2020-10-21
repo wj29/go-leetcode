@@ -15,5 +15,5 @@ func Test_StoneGame(t *testing.T) {
 
 // 获胜的条件 = 最后一次取出的石子个数+前n-1次取出石子个数的总和
 func stoneGame(piles []int) bool {
-	return false
+	return true
 }
