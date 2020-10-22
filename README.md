@@ -166,6 +166,7 @@
 |[739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/daily_temperatures_test.go)||
 |[84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/largest_rectangle_area_test.go)|mark|
 |[42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/trap_test.go)|mark|
+|[71. 简化路径](https://leetcode-cn.com/problems/simplify-path/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/simplify_path_test.go)||
 
 ### sort
 |题目| 解决  | 备注 |

@@ -10,6 +10,7 @@ import (
 // 输出: [9,7,8] 划分结果为 "ababcbaca", "defegde", "hijhklij"
 // 每个字母最多出现在一个片段中
 // 像 "ababcbacadefegde", "hijhklij" 的划分是错误的，因为划分的片段数较少
+// 763. 划分字母区间
 // https://leetcode-cn.com/problems/partition-labels medium
 func Test_PartitionLabels(t *testing.T) {
 	s := "ababcbacadefegdehijhklij"
@@ -17,16 +18,15 @@ func Test_PartitionLabels(t *testing.T) {
 }
 
 func partitionLabels(S string) []int {
-	b := []byte(S)
 	m := make(map[string]int)
-	for i := 0; i < len(b); i++ {
+	for i := 0; i < len(S); i++ {
 		m[string(S[i])] = i
 	}
 	begin := 0
 	current := 0
 	last := -1
 	ret := make([]int, 0)
-	for current < len(b) {
+	for current < len(S) {
 		last = max(m[string(S[current])], last)
 		if current < last {
 			current++
