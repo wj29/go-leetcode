@@ -6,6 +6,8 @@ import (
 
 // 剑指 Offer 20. 表示数值的字符串
 // https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/
+// 65. 有效数字
+// https://leetcode-cn.com/problems/valid-number/
 func Test_IsNumber(t *testing.T) {
 	s := "5e2"
 	t.Log(isNumber(s))

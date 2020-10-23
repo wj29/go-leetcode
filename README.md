@@ -127,6 +127,7 @@
 |[725. 分隔链表](https://leetcode-cn.com/problems/split-linked-list-in-parts/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/split_list_to_parts_test.go) ||
 |[24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/swap_pairs_test.go) ||
 |[23. 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/merge_K_lists_test.go)|mark |
+|[86. 分隔链表](https://leetcode-cn.com/problems/partition-list/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/partition_test.go)||
 
 ### 数学
 |题目| 解决  | 备注 |
