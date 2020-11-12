@@ -57,6 +57,7 @@
 |[567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/check_inclusion_test.go)||
 |[76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/min_window_test.go)|mark|
 |[581. 最短无序连续子数组](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/find_unsorted_subarray_test.go)||
+|[438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/doublepoint/find_anagrams_test.go)||
 
 ### 动态规划
 |题目| 解决  | 备注 |
@@ -89,6 +90,7 @@
 |[486. 预测赢家](https://leetcode-cn.com/problems/predict-the-winner/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/predict_the_winner_test.go)|mark|
 |[72. 编辑距离](https://leetcode-cn.com/problems/edit-distance/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/min_distance_test.go)|mark|
 |[55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/) [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/can_jump_test.go)||
+|[514. 自由之路](https://leetcode-cn.com/problems/freedom-trail/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/dynamicprogramming/find_rotate_steps_test.go)||
 
 ### 贪心
 |题目| 解决  | 备注 |
@@ -101,6 +103,7 @@
 |[763. 划分字母区间](https://leetcode-cn.com/problems/partition-labels/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/partition_labels_test.go) ||
 |[767. 重构字符串](https://leetcode-cn.com/problems/reorganize-string/) |[Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/reorganize_string_test.go) ||
 |[12. 整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/) [13. 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/int_to_roman_test.go)| mark |
+|[406. 根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/reconstruct_queue_test.go)||
 
 ### 哈希
 |题目| 解决  | 备注 |
@@ -155,6 +158,10 @@
 |[127. 单词接龙](https://leetcode-cn.com/problems/word-ladder/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/ladder_length_test.go)||
 |[4. 寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/find_median_sorted_arrays_test.go) |mark|
 |[74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/search_matrix_test.go)||
+|[463. 岛屿的周长](https://leetcode-cn.com/problems/island-perimeter/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/island_perimeter_test.go)||
+|[31. 下一个排列](https://leetcode-cn.com/problems/next-permutation/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/next_permutation_test.go)||
+|[200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/search/num_is_lands_test.go)||
+
 
 ### 栈与队列
 |题目| 解决  | 备注 |
