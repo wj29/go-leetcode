@@ -177,6 +177,8 @@
 |[84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/largest_rectangle_area_test.go)|mark|
 |[42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/trap_test.go)|mark|
 |[71. 简化路径](https://leetcode-cn.com/problems/simplify-path/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/simplify_path_test.go)||
+|[402. 移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/remove_k_digits_test.go)|mark|
+|[316. 去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/) [1081. 不同字符的最小子序列](https://leetcode-cn.com/problems/smallest-subsequence-of-distinct-characters/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/stackandqueque/smallest_subsequence_test.go)|mark|
 
 ### sort
 |题目| 解决  | 备注 |
