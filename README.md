@@ -101,9 +101,10 @@
 |[455. 分发饼干](https://leetcode-cn.com/problems/assign-cookies/description/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/find_content_children_test.go) ||
 |[452. 用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/find_min_arrow_shots_test.go) ||
 |[763. 划分字母区间](https://leetcode-cn.com/problems/partition-labels/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/partition_labels_test.go) ||
-|[767. 重构字符串](https://leetcode-cn.com/problems/reorganize-string/) |[Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/reorganize_string_test.go) ||
+|[767. 重构字符串](https://leetcode-cn.com/problems/reorganize-string/) |[Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/reorganize_string_test.go) |mark|
 |[12. 整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/) [13. 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/int_to_roman_test.go)| mark |
 |[406. 根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/reconstruct_queue_test.go)||
+|[621. 任务调度器](https://leetcode-cn.com/problems/task-scheduler/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/greedy/least_interval_test.go)|mark|
 
 ### 哈希
 |题目| 解决  | 备注 |
@@ -131,6 +132,7 @@
 |[24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/swap_pairs_test.go) ||
 |[23. 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/merge_K_lists_test.go)|mark |
 |[86. 分隔链表](https://leetcode-cn.com/problems/partition-list/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/partition_test.go)||
+|[147. 对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/)|[Go](https://github.com/wujiang1994/go-leetcode/blob/master/list/insertion_sort_list_test.go)||
 
 ### 数学
 |题目| 解决  | 备注 |
